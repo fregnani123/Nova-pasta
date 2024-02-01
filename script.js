@@ -1,4 +1,4 @@
-const url = 'https://204.216.187.179:3000/findProduto';
+const url = 'https://localhost:3001/findProduto';
 
 function construindo() {
     const ul = document.querySelector('#ul');
