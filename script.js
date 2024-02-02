@@ -1,4 +1,5 @@
-const url = 'https://204.216.187.179:3001/findProduto';
+// const url = 'https://204.216.187.179:3001/findProduto';
+const url = 'https://servicodados.ibge.gov.br/api/v1/localidades/distritos';
 
 function construindo() {
     const ul = document.querySelector('#ul');
