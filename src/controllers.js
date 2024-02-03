@@ -1,9 +1,6 @@
-const url = 'https://204.216.187.179:3001/findProduto';
-// const url = 'https://servicodados.ibge.gov.br/api/v1/localidades/distritos';
+const url = 'http://204.216.187.179:3000/findProduto';
 
 function construindo() {
-    const ul = document.querySelector('#ul');
-
     fetch(url)
         .then((response) => {
             return response.json();
@@ -19,13 +16,13 @@ function construindo() {
 
                 buttonRemove.addEventListener('click', () => {
                     ul.removeChild(li);
-                    novoData.splice(novoData.indexOf(imprimir), 1); // Remover o item excluído do novoData
+                    novoData.splice(novoData.indexOf(imprimir), 1);
                 });
 
                 li.appendChild(buttonRemove);
                 ul.appendChild(li);
             }
-            console.log(novoData); // Aqui você terá o novo array sem o item excluído
+            console.log(novoData);
         });
 }
 

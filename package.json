@@ -1,0 +1,25 @@
+{
+  "name": "nome-do-seu-app",
+  "version": "1.0.0",
+  "main": "src/main.js", 
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fregnani123/Nova-pasta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fregnani123/Nova-pasta/issues"
+  },
+  "homepage": "https://github.com/fregnani123/Nova-pasta#readme",
+  "devDependencies": {
+    "electron": "^28.2.1",
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
